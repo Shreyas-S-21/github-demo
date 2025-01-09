@@ -15,3 +15,4 @@ add and commit command
 git add filename . each file that u change that u need to add. 
 git add . (add all the modified files)
 git commit -m "message"
+git push origin main (push local repo to github) origin-> name of the repo that we cloned, we kept it as origin. and the main branch
