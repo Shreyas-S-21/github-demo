@@ -30,3 +30,5 @@ now do git push origin main to push the locally created new repo to remote repo
 git push -u origin main (for a long time it considers the origin main and pushes to origin main itself when u put the command git push)
 git push
 note :better to create repos in remote first and then clone in local
+
+51.30 git branch for 10.1.25
