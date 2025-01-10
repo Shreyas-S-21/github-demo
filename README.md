@@ -46,3 +46,16 @@ git pull origin branch_name (used to fetch and download content from remote repo
  merge has 2 situations one through github and one through cli. 
  while merging there are 2 more situations . merge without conflicts . and merge with conflicts.
  when there are conflicts u need to resolve them.
+ how to reset the commits /adds
+ git reset file_name (used when u have done add but want to undo that)
+ git reset (when u want to undo multiple add changes ie add .)
+ git reset HEAD~1  (undo both commit and add for one commit set)
+ for multiple commits undo - git reset
+
+ press q for quit in cli
+ git log (history)
+ git reset hash_code (take the hash code of any previous commit that u want to go to) (code isnt updated)
+ git reset --hard hash_code (jjumps to the required previous commit)(code is updated to the previous commit)
+ fork
+ used when u need to clone the project in github/remotely
+ when u need to contribute at opensource u fork and make changes and the send a pull req to the owner
