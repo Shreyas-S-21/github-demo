@@ -40,4 +40,5 @@ create a branch and push it to github. there u can see 2 branches.
  merging the code
  git diff branch_name (compare branche with main, commits,files etc)
  git merge branch_name (branch name= main) (merge 2 branches)
+git pull origin branch_name (used to fetch and download content from remote repo and immediately update local repo branch)
 
