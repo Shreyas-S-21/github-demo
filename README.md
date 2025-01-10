@@ -10,9 +10,11 @@ ls -a . shows the hidden files
 git status . status of the current folder
 github directly commit 
 git(loaclly) add and commit
+git clone Repo_link
+git status (display the status of the changes)
 4 kinds of status untracked ,modified,unmodified,staged=ready to be comitted
 add and commit command
-git add filename . each file that u change that u need to add. 
+git add filename . each file that u change that u need to add
 git add . (add all the modified files)
 git commit -m "message"
 git push origin main (push local repo to github) origin-> name of the repo that we cloned, we kept it as origin. and the main branch
@@ -24,11 +26,18 @@ storyline is- we have made a repo inside local machine and need to push to remot
 above command . this repo is now set as origin
 git remote -v (verify the remote thst has been added)
 git branch . see the name of the branch.
-git branch -M main (we need to go to main branch. when git branch if the name is other than main then this becomes useful)
+git branch -M main (main is the name of the new branch can be anything else)(we need to go to main branch. when git branch if the name is other than main then this becomes useful)used for rename
 add and commit
 now do git push origin main to push the locally created new repo to remote repo
 git push -u origin main (for a long time it considers the origin main and pushes to origin main itself when u put the command git push)
 git push
 note :better to create repos in remote first and then clone in local
 
-51.30 git branch for 10.1.25
+git checkout branch_name (navigate to a different branch)
+git checkout -b new_branch_name (navigate/create to a new branch)checkout- leave from one place.
+git checkout -d branch_name(delete a branch)
+create a branch and push it to github. there u can see 2 branches.
+ merging the code
+ git diff branch_name (compare branche with main, commits,files etc)
+ git merge branch_name (branch name= main) (merge 2 branches)
+
