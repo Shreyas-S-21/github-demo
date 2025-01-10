@@ -32,6 +32,7 @@ now do git push origin main to push the locally created new repo to remote repo
 git push -u origin main (for a long time it considers the origin main and pushes to origin main itself when u put the command git push)
 git push
 note :better to create repos in remote first and then clone in local
+
 git checkout branch_name (navigate to a different branch)
 git checkout -b new_branch_name (navigate/create to a new branch)checkout- leave from one place.
 git checkout -d branch_name(delete a branch)
@@ -39,3 +40,4 @@ create a branch and push it to github. there u can see 2 branches.
  merging the code
  git diff branch_name (compare branche with main, commits,files etc)
  git merge branch_name (branch name= main) (merge 2 branches)
+
