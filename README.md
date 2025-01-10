@@ -39,3 +39,6 @@ create a branch and push it to github. there u can see 2 branches.
  merging the code
  git diff branch_name (compare branche with main, commits,files etc)
  git merge branch_name (branch name= main) (merge 2 branches)
+ merge has 2 situations one through github and one through cli. 
+ while merging there are 2 more situations . merge without conflicts . and merge with conflicts.
+ when there are conflicts u need to resolve them.
