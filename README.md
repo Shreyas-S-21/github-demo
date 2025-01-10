@@ -35,3 +35,4 @@ note :better to create repos in remote first and then clone in local
 git checkout branch_name (navigate to a different branch)
 git checkout -b new_branch_name (navigate/create to a new branch)checkout- leave from one place.
 git checkout -d branch_name(delete a branch)
+create a branch and push it to github. there u can see 2 branches.
